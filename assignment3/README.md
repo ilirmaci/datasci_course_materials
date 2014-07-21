@@ -182,7 +182,7 @@ You can verify your solution by comparing your result with the *file unique_trim
 
 ## Problem 6
 
-Assume you have two matrices A and B in a sparse matrix format, where each record is of the form `i, j, value`. Design a MapReduce algorithm to compute the matrix multiplication A x B.
+Assume you have two matrices A and B in a sparse matrix format, where each record is of the form `i, j, value`. Design a MapReduce algorithm to compute the matrix multiplication A x B. You can assume that both A and B are 5x5 matrices (i.e. `i` and `j` are between 0 and 4).
 
 ### Map Input
 
