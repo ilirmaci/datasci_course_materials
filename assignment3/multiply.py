@@ -44,7 +44,8 @@ def reducer(index, value_list):
     for step in step_list:
         if len(step) == 2:
             result += step[0] * step[1]
-    mr.emit((index[0], index[1], result))
+    if result != 0:   ## to preserve advantage of sparcity
+        mr.emit((index[0], index[1], result))
         
 # Part 4
 inputdata = open(sys.argv[1])
