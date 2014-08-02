@@ -1,3 +1,5 @@
+*rootkey*
+*.pem
 temp.sql
 *.pyc
 *~
